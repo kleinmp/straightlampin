@@ -4,6 +4,6 @@ steps:
   - name: Probo site setup
     plugin: LAMPApp 
     database: lampdb.sql.gz
-    databaseName: lampdb
+    databaseName: lampdb 
     databaseGzipped: true
     
