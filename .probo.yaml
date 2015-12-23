@@ -1,8 +1,8 @@
 assets:
-  - hello.sql.gz
+  - lampdb.sql.gz
 steps:
   - name: Probo site setup
     plugin: LAMPApp
-    database: hello.sql.gz
+    database: lampdb.sql.gz
     databaseName: lampdb
     databaseGzipped: true
