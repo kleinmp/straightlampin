@@ -1,3 +1,5 @@
+assets:
+  - lampdb.sql.gz
 steps:
   - name: Probo site setup
     plugin: LAMPApp 
