@@ -6,3 +6,4 @@ steps:
     database: lampdb.sql.gz
     databaseName: lampdb
     databaseGzipped: true
+    
