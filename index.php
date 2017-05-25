@@ -11,12 +11,12 @@
 
   // Check connection
   if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error . $eol);
+    die("You suck: " . $conn->connect_error . $eol);
   }
-  echo "Connected successfully" . $eol;
+  echo "Goose liver" . $eol;
   $res = mysqli_query($conn, 'SELECT * FROM hello');
   while($row = mysqli_fetch_assoc($res)) {
-    echo "hello " . $row['planet'] . $eol;
+    echo "david the gnome " . $row['planet'] . $eol;
   }
 
 ?>
