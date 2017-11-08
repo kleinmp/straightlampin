@@ -15,6 +15,7 @@
   }
   echo "Goose liver" . $eol;
   echo "What, me worry?" . $eol;
+  echo "I'm bad at this" . $eol;
   $res = mysqli_query($conn, 'SELECT * FROM hello');
   while($row = mysqli_fetch_assoc($res)) {
     echo "david the gnome " . $row['planet'] . $eol;
