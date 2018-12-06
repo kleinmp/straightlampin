@@ -2,21 +2,22 @@
 
   $servername = "localhost";
   $username = "root";
-  $password = "root";
+  $password = "";
 
   $eol = "<br/>" . PHP_EOL;
+  echo "Goose liver" . $eol;
 
   // Create connection
   $conn = new mysqli($servername, $username, $password, 'lampdb');
 
   // Check connection
   if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error . $eol);
+    die("You suck: " . $conn->connect_error . $eol);
   }
-  echo "Connected successfully" . $eol;
+
   $res = mysqli_query($conn, 'SELECT * FROM hello');
   while($row = mysqli_fetch_assoc($res)) {
-    echo "hello " . $row['planet'] . $eol;
+    echo "david the gnome " . $row['planet'] . $eol;
   }
 
 ?>
