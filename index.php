@@ -1,6 +1,7 @@
 <?php
 
   echo 'me first';
+  echo 'me too';
 
   $servername = "localhost";
   $username = "root";
