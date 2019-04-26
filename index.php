@@ -1,5 +1,9 @@
 <?php
 
+  echo 'me first';
+  echo 'me too';
+  echo 'don\'t forget me';
+
   $servername = "localhost";
   $username = "root";
   $password = "root";
