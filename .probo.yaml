@@ -1,10 +1,7 @@
 image: proboci/ubuntu-16.04-lamp:php-7.1
-assets:
-  - lampdb.sql.gz
 steps:
   - name: Probo site setup
-    plugin: LAMPApp 
-    database: lampdb.sql.gz
-    databaseName: lampdb 
+    plugin: LAMPApp
+    database: /src/lampdb.sql.gz
+    databaseName: lampdb
     databaseGzipped: true
-    
