@@ -1,3 +1,5 @@
 steps:
   - name: Probo site setup
     command: 'echo "This is really something"'
+  - name: Nothing really
+    command: 'echo "This is really nothing"'
