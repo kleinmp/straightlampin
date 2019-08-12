@@ -1,7 +1,3 @@
-image: proboci/ubuntu-16.04-lamp:php-7.1
 steps:
   - name: Probo site setup
-    plugin: LAMPApp
-    database: /src/lampdb.sql.gz
-    databaseName: lampdb
-    databaseGzipped: true
+    command: 'echo "This is really something"'
