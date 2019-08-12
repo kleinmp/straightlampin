@@ -3,3 +3,5 @@ steps:
     command: 'echo "This is really something"'
   - name: Nothing really
     command: 'echo "This is really nothing"'
+  - name: No PR?
+    command: 'echo no pr'
